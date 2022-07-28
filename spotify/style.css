@@ -1,0 +1,111 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC&family=Dancing+Script&family=Edu+NSW+ACT+Foundation:wght@400;600&family=Uchen&family=Varela+Round&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: 'Cormorant SC', serif;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: goldenrod;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    width: 50px;
+    padding: 0 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+
+.container{
+    min-height: 70vh;
+    background-color: black;
+    color: white;
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+    display: flex;
+    width: 70%;
+    margin :30px auto;
+    border-radius: 12px;
+    padding:34px;
+    background-image: url('https://images.unsplash.com/photo-1420161900862-9a86fa1f5c79?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2069&q=80');
+}
+
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: black;
+    color: lightblue;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.icons{
+    margin-top: 14px;
+}
+.icons i{
+    cursor: pointer;
+}
+
+#myprogressBar{
+    width: 80vw;
+    cursor: pointer ;
+    
+}
+
+.songitemcontainer{
+    margin-top: 74px;
+}
+
+.songitem{
+    height: 40px;
+    display:flex;
+    background-color: white;
+    width:80%;
+    color:black;
+    margin: 12px 0;
+    justify-content:sapce-between;
+    align-items:centre;
+    border-radius: 34px;
+}
+.songitem img{
+    width:43px;
+    margin: 0 23px;
+    border-radius: 36px;
+}
+
+.timestamp{
+    margin: 0 23px;
+}
+.timestamp i{
+    cursor: pointer; 
+}
+.songinfo{
+    position: absolute;
+    left: 10vw;
+    bottom: 30px;
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
